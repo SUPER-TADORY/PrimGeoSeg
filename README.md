@@ -53,7 +53,7 @@ model  =  UNETR(
 	
 # Load weight 
 state_dict = torch.load('Path to checkpoint path')
-  model.load_state_dict(state_dict, strict=False)
+model.load_state_dict(state_dict, strict=False)
 ```
 
 
