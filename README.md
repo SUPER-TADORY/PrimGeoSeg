@@ -66,7 +66,7 @@ preparing...
 
 
 ## Pre-training & Finetuning
-Our experimental code is heavily based on the previous great work []. Pre-training task for PrimGeoSeg dataset is segmentation task which is same as downstream task, and you can perform PrimGeoSeg pre-training by replacing input 3D medical image segmentation dataset to PrimGeoSeg dataset. Also, you can pre-train your original architecture by replacing the architecture part in the code. 
+Our experimental code is heavily based on [the previous great work](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR/BTCV). Pre-training task for PrimGeoSeg dataset is segmentation task which is same as downstream task, and you can perform PrimGeoSeg pre-training by replacing input 3D medical image segmentation dataset to PrimGeoSeg dataset. Also, you can pre-train your original architecture by replacing the architecture part in the code. 
 
 ## Cite
 
