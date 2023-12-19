@@ -58,6 +58,7 @@ model.load_state_dict(state_dict, strict=False)
 
 
 ## Pre-training Dataset for PrimGeoSeg
+preparing...
 |Dataset Size |Pre-training Size                          |
 |----------------|-------------------------------|
 |50,000|[Google Drive]            |
