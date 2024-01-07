@@ -1,0 +1,8 @@
+data_num: 5000
+space: 96
+reduce_xy_class: false
+reduce_z_class: false
+set_lost_label: false
+no_rotate: True
+noise_strength: 0
+occlusion_r: 0.7
