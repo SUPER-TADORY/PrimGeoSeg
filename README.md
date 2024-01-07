@@ -6,7 +6,11 @@ This repository contains implementation for the generation of PrimGeoSeg dataset
 "Pre-Training Auto-Generated Volumetric Shapes for 3D Medical Image Segmentation", CVPRW2023 (Short Paper) [[Paper](https://openaccess.thecvf.com/content/CVPR2023W/ECV/papers/Tadokoro_Pre-Training_Auto-Generated_Volumetric_Shapes_for_3D_Medical_Image_Segmentation_CVPRW_2023_paper.pdf)]
 
 ## Generation for PrimGeoSeg Dataset
-Preparing...
+To construct the pre-training dataset for PrimGeoSeg, please run the following code. You can customize the dataset by modifying the hyperparameters.
+```
+cd data_generation
+bash run.sh
+```
 
 ## Pre-trained Weights for PrimGeoSeg
 |Architecture |Pre-training Size                          |Weights                         |
@@ -66,7 +70,15 @@ preparing...
 
 
 ## Pre-training & Finetuning
-Our experimental code is heavily based on [the previous great work](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR/BTCV). Pre-training task for PrimGeoSeg dataset is segmentation task which is same as downstream task, and you can perform PrimGeoSeg pre-training by replacing input 3D medical image segmentation dataset to PrimGeoSeg dataset. Also, you can pre-train your original architecture by replacing the architecture part in the code. 
+This project builds upon the groundbreaking work found in the MONAI Research Contributions, specifically focusing on the SwinUNETR/BTCV implementation. Our approach involves an innovative application of this existing framework for the segmentation task using the PrimGeoSeg dataset.
+
+### Pre-Training with PrimGeoSeg
+The core of our experiment lies in adapting the pre-training process to the PrimGeoSeg dataset. Originally designed for 3D medical image segmentation, this methodology can be seamlessly transitioned to work with the PrimGeoSeg dataset. To do so, simply replace the input dataset in the code with PrimGeoSeg, while keeping the segmentation task consistent with the downstream task.
+
+###  Customizing the Architecture
+In addition to dataset adaptation, our project offers flexibility in terms of architectural modifications. If you're looking to implement your own architecture, this can be easily achieved by replacing the architecture component in the codebase with your design. This feature allows for extensive experimentation and adaptation, tailoring the project to meet various research needs.
+
+
 
 ## Cite
 
