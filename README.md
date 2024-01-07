@@ -9,6 +9,7 @@ This repository contains implementation for the generation of PrimGeoSeg dataset
 To construct the pre-training dataset for PrimGeoSeg, please run the following code. You can customize the dataset by modifying the hyperparameters.
 ```
 cd data_generation
+pip install requirements.txt
 bash run.sh
 ```
 
