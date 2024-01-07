@@ -1,4 +1,6 @@
 # PrimGeoSeg for 3D Medical Image Segmentation
+![Main Image](figure/main.png)
+
 This repository contains implementation for the generation of PrimGeoSeg dataset (/AVS-DB), pre-training dataset for PrimGeoSeg (/AVS-DB), PrimGeoSeg pre-trained model. 
 
 "Primitive Geometry Segment Pre-training for 3D Medical Image Segmentation", BMVC2023 (Oral) [[Paper](https://papers.bmvc2023.org/0152.pdf)] [[Supplementary](https://bmvc2022.mpi-inf.mpg.de/BMVC2023/0152_supp.zip)] [[Video](https://bmvc2022.mpi-inf.mpg.de/BMVC2023/0152_video.mp4)]
@@ -6,6 +8,7 @@ This repository contains implementation for the generation of PrimGeoSeg dataset
 "Pre-Training Auto-Generated Volumetric Shapes for 3D Medical Image Segmentation", CVPRW2023 (Short Paper) [[Paper](https://openaccess.thecvf.com/content/CVPR2023W/ECV/papers/Tadokoro_Pre-Training_Auto-Generated_Volumetric_Shapes_for_3D_Medical_Image_Segmentation_CVPRW_2023_paper.pdf)]
 
 ## Generation for PrimGeoSeg Dataset
+![Data Construction](figure/data_generation.png)
 To construct the pre-training dataset for PrimGeoSeg, please run the following code. You can customize the dataset by modifying the hyperparameters.
 ```
 cd data_generation
