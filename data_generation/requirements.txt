@@ -1,0 +1,8 @@
+importlib-resources==6.1.1
+nibabel==5.2.0
+numpy==1.24.4
+opencv-python==4.9.0.80
+packaging==23.2
+PyYAML==6.0.1
+tqdm==4.66.1
+zipp==3.17.0
