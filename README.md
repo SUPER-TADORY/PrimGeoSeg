@@ -87,11 +87,13 @@ In addition to dataset adaptation, our project offers flexibility in terms of ar
 ## Cite
 
  ```
-@inproceedings{tadokoro2023primgeoseg,
-  title={Primitive Geometry Segment Pre-training for 3D Medical Image Segmentation},
-  author={Ryu Tadokoro, Ryosuke Yamada, Kodai Nakashima, Ryo Nakamura, Hirokatsu Kataoka},
-  booktitle={The 34th British Machine Vision Conference Proceedings},
-  year={2023}
+@inproceedings{Tadokoro_2023_BMVC,
+	author={Ryu Tadokoro and Ryosuke Yamada and Kodai Nakashima and Ryo Nakamura and Hirokatsu Kataoka},
+	title={Primitive Geometry Segment Pre-training for 3D Medical Image Segmentation},
+	booktitle={34th British Machine Vision Conference 2023, {BMVC} 2023, Aberdeen, UK, November 20-24, 2023},
+	publisher={BMVA},
+	year={2023},
+	url={https://papers.bmvc2023.org/0152.pdf}
 }
 @inproceedings{tadokoro2023avsdb,
   title={Pre-Training Auto-Generated Volumetric Shapes for 3D Medical Image Segmentation},
