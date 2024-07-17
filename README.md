@@ -74,7 +74,7 @@ model.load_state_dict(state_dict, strict=False)
 
 
 ## Pre-training & Finetuning
-This project is based on the work found in [the MONAI Research Contributions](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR), specifically the SwinUNETR/BTCV implementation. Our approach applies this framework to the segmentation task using the PrimGeoSeg dataset.
+This project is based on the work found in [the MONAI Research Contributions](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR), specifically the SwinUNETR/BTCV implementation. Our approach applies this framework to the segmentation task using the PrimGeoSeg dataset for both pre-training & finetuning.
 
 ### Pre-Training with PrimGeoSeg
 The core of our experiment lies in adapting the pre-training process to the PrimGeoSeg dataset. Originally designed for 3D medical image segmentation, this methodology can be seamlessly transitioned to work with the PrimGeoSeg dataset. To do so, simply replace the input dataset in the code with PrimGeoSeg, while keeping the segmentation task consistent with the downstream task.
