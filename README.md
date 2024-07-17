@@ -66,7 +66,7 @@ model.load_state_dict(state_dict, strict=False)
 
 
 ## Pre-training Dataset for PrimGeoSeg
-preparing...
+
 |Dataset Size |Pre-training Size                          |
 |----------------|-------------------------------|
 |50,000|[Google Drive]            |
@@ -74,7 +74,7 @@ preparing...
 
 
 ## Pre-training & Finetuning
-This project builds upon the groundbreaking work found in [the MONAI Research Contributions](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR), specifically focusing on the SwinUNETR/BTCV implementation. Our approach involves an innovative application of this existing framework for the segmentation task using the PrimGeoSeg dataset.
+This project is based on the work found in [the MONAI Research Contributions](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR), specifically the SwinUNETR/BTCV implementation. Our approach applies this framework to the segmentation task using the PrimGeoSeg dataset.
 
 ### Pre-Training with PrimGeoSeg
 The core of our experiment lies in adapting the pre-training process to the PrimGeoSeg dataset. Originally designed for 3D medical image segmentation, this methodology can be seamlessly transitioned to work with the PrimGeoSeg dataset. To do so, simply replace the input dataset in the code with PrimGeoSeg, while keeping the segmentation task consistent with the downstream task.
@@ -82,6 +82,8 @@ The core of our experiment lies in adapting the pre-training process to the Prim
 ###  Customizing the Architecture
 In addition to dataset adaptation, our project offers flexibility in terms of architectural modifications. If you're looking to implement your own architecture, this can be easily achieved by replacing the architecture component in the codebase with your design. This feature allows for extensive experimentation and adaptation, tailoring the project to meet various research needs.
 
+###  Erratum
+[2024/07] As mentioned in the supplementary materials of the BMVC paper, the MSD results in the CVPRW paper are reported as the average Dice score of both the target and background classes. In contrast, the BMVC paper records the Dice score for the target class only. Additionally, the BMVC paper uses hyperparameters that are more closely aligned with previous research for MSD experiments.
 
 
 ## Cite
