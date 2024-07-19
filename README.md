@@ -82,7 +82,7 @@ The core of our experiment lies in adapting the pre-training process to the Prim
 ###  Customizing the Architecture
 In addition to dataset adaptation, our project offers flexibility in terms of architectural modifications. If you're looking to implement your own architecture, this can be easily achieved by replacing the architecture component in the codebase with your design. This feature allows for extensive experimentation and adaptation, tailoring the project to meet various research needs.
 
-###  Erratum
+## Erratum
 [2024/07] As mentioned in the supplementary materials of the BMVC paper, the MSD results in the CVPRW paper are reported as the average Dice score of both the target and background classes. In contrast, the BMVC paper records the Dice score for the target class only. Additionally, the BMVC paper uses hyperparameters that are more closely aligned with previous research for MSD experiments.
 
 
