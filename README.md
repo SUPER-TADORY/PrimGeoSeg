@@ -74,10 +74,10 @@ model.load_state_dict(state_dict, strict=False)
 
 
 ## Pre-training & Finetuning
-This project is based on the work found in [the MONAI Research Contributions](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR), specifically the SwinUNETR/BTCV implementation. Our approach applies this framework to the segmentation task using the PrimGeoSeg dataset for both pre-training & finetuning.
+This project is based on the work found in [the MONAI Research Contributions](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR), specifically the SwinUNETR/BTCV implementation. Our approach applies this framework for both pre-training & finetuning.
 
 ### Pre-Training with PrimGeoSeg
-The core of our experiment lies in adapting the pre-training process to the PrimGeoSeg dataset. Originally designed for 3D medical image segmentation, this methodology can be seamlessly transitioned to work with the PrimGeoSeg dataset. To do so, simply replace the input dataset in the code with PrimGeoSeg, while keeping the segmentation task consistent with the downstream task.
+The key contribution of our work is using the PrimGeoSeg dataset for pre-training in a 3D medical image segmentation context. Although [the MONAI codebase](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR) was originally developed for datasets like BTCV, it can be easily adapted by simply substituting PrimGeoSeg as the input dataset. This allows you to leverage the same training framework for pre-training, ensuring seamless integration with the downstream segmentation tasks of interest. To achieve optimal results, we recommend aligning the hyperparameters with those provided in the main text and supplementary materials of our paper.
 
 ###  Customizing the Architecture
 In addition to dataset adaptation, our project offers flexibility in terms of architectural modifications. If you're looking to implement your own architecture, this can be easily achieved by replacing the architecture component in the codebase with your design. This feature allows for extensive experimentation and adaptation, tailoring the project to meet various research needs.
