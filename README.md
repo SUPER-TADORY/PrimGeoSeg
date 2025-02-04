@@ -5,7 +5,7 @@ This repository contains implementation for the generation of PrimGeoSeg dataset
 
 "Primitive Geometry Segment Pre-training for 3D Medical Image Segmentation", BMVC2023 (Oral) [[Proceedings](https://proceedings.bmvc2023.org/152/)] [[Paper](https://papers.bmvc2023.org/0152.pdf)] [[Supplementary](https://bmvc2022.mpi-inf.mpg.de/BMVC2023/0152_supp.zip)] [[Video](https://bmvc2022.mpi-inf.mpg.de/BMVC2023/0152_video.mp4)]
 
-"Pre-Training Auto-Generated Volumetric Shapes for 3D Medical Image Segmentation", CVPRW2023 (Short Paper) [[Paper](https://openaccess.thecvf.com/content/CVPR2023W/ECV/papers/Tadokoro_Pre-Training_Auto-Generated_Volumetric_Shapes_for_3D_Medical_Image_Segmentation_CVPRW_2023_paper.pdf)]
+"Pre-Training Auto-Generated Volumetric Shapes for 3D Medical Image Segmentation", CVPRW2023 (Short Paper)
 
 ## Generation for PrimGeoSeg Dataset
 ![Data Construction](figure/data_generation.png)
@@ -96,11 +96,5 @@ In addition to dataset adaptation, our project offers flexibility in terms of ar
 	publisher={BMVA},
 	year={2023},
 	url={https://papers.bmvc2023.org/0152.pdf}
-}
-@inproceedings{tadokoro2023avsdb,
-  title={Pre-Training Auto-Generated Volumetric Shapes for 3D Medical Image Segmentation},
-  author={Ryu Tadokoro, Ryosuke Yamada, Hirokatsu Kataoka},
-  booktitle={IEEE Computer Society Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
-  year={2023}
 }
 ```
